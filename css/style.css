@@ -7,8 +7,8 @@ img{border: none;display: block;}
 .ie8 img{height: auto;width: auto;}
 .clearfix{zoom: 1;}
 .clearfix:after{display: block;clear: both;content: '';visibility: hidden;height: 0;}
-.to-top{border-radius: 50%;height: 50px;width: 50px;background: #ec008c;font-size: 32px;line-height: 50px;color: #fff;text-align: center;z-index: 9999;}
-.to-top:hover{background: #eee;color: #ec008c;}
+.to-top{border-radius: 50%;height: 50px;width: 50px;background: #38322e;font-size: 32px;line-height: 50px;color: #fff;text-align: center;z-index: 9999;}
+.to-top:hover{background: #eee;color: #38322e;}
 /*-----------------
 //////////main-menu
 -----------------*/
@@ -20,12 +20,12 @@ header{position: fixed;top: 2%;width: 100%;z-index: 99999;}
 .main-menu.active .top{-webkit-transform: translateY(10px) translateX(0) rotate(45deg);transform: translateY(10px) translateX(0) rotate(45deg);background: #FFF;}
 .main-menu.active .middle{opacity: 0;background: #FFF;}
 .main-menu.active .bottom{-webkit-transform: translateY(-6px) translateX(0) rotate(-45deg);transform: translateY(-6px) translateX(0) rotate(-45deg);background: #FFF;}
-.main-menu span{background: #ec008c;border: none;height: 4px;width: 24px;position: absolute;top: 5px;left: 4px;-webkit-transition: all .35s ease;transition: all .35s ease;cursor: pointer;}
+.main-menu span{background: #38322e;border: none;height: 4px;width: 24px;position: absolute;top: 5px;left: 4px;-webkit-transition: all .35s ease;transition: all .35s ease;cursor: pointer;}
 .main-menu span:nth-of-type(2){top: 13px;}
 .main-menu span:nth-of-type(3){top: 21px;}
 .overlay{position: fixed;top: 0;left: 0;width: 100%;height: 100%;opacity: 1;visibility: hidden;-webkit-transition: opacity .35s, visibility .35s, width .35s;transition: opacity .35s, visibility .35s, width .35s;z-index: 50;}
-.overlay:before{content: '';background: #ec008c;left: -55%;top: 0;width: 50%;height: 100%;position: absolute;-webkit-transition: left .35s ease;transition: left .35s ease;}
-.overlay:after{content: '';background: #ec008c;right: -55%;top: 0;width: 50%;height: 100%;position: absolute;-webkit-transition: all .35s ease;transition: all .35s ease;}
+.overlay:before{content: '';background: #38322e;left: -55%;top: 0;width: 50%;height: 100%;position: absolute;-webkit-transition: left .35s ease;transition: left .35s ease;}
+.overlay:after{content: '';background: #38322e;right: -55%;top: 0;width: 50%;height: 100%;position: absolute;-webkit-transition: all .35s ease;transition: all .35s ease;}
 .overlay.open{opacity: .9;visibility: visible;height: 100%;}
 .overlay.open:before{left: 0;}
 .overlay.open:after{right: 0;}
@@ -48,7 +48,7 @@ left: 20%;}
 100%{opacity: 1;
 left: 0;}}
 /*use-js*/
-.main-menu2{background: #ec008c;border-radius: 2px;}
+.main-menu2{background: #38322e;border-radius: 2px;}
 .main-menu2 span{background: #fff!important;}
 /*-----------------
 /////////////resume
@@ -70,7 +70,7 @@ section{text-align: center;}
 #base .me h2{color: #fff;font-size: 24px;margin-top: 4px;font-weight: 100;}
 #base .me p{color: #fff;letter-spacing: 6px;text-transform: uppercase;padding-top: 10px;padding-bottom: 0;}
 #base .me i{color: #fff;padding-right: 8px;}
-#base .hi{color: #fff;background: #ec008c;}
+#base .hi{color: #fff;background: #38322e;}
 #base .hi p{color: #fff;}
 #base .hi .hello{position: relative;left: 50%;top: 0;margin-left: -130px;}
 #base .hi i{color:rgba(255, 255, 255, 0.2)}
@@ -114,7 +114,7 @@ section{text-align: center;}
 #base .skills .pie-chart{width: 100%;margin-bottom: 20px;}}
 .experience{background: #eee;}
 .experience h3{font-size: 1.5em;color: #fff;}
-.experience hr{margin-bottom: 4%;border-bottom: 1px solid #ec008c;max-width: 80px;margin: 0 auto;}
+.experience hr{margin-bottom: 4%;border-bottom: 1px solid #38322e;max-width: 80px;margin: 0 auto;}
 .experience .panel{background: #444 url(../img/job-bg.jpg) fixed center center no-repeat;padding: 8% 0;}
 .experience>.container{padding-top: 140px;padding-bottom: 60px;width: 80%;max-width: 960px;position: relative;}
 .experience .panel>.container{padding-top: 0px;padding-bottom: 0px;}
@@ -212,6 +212,6 @@ footer{background: #111;font-family: 'Raleway', Arial, sans-serif;padding-top: 8
 footer strong{font-weight: 800;font-size: 5em;color: #333;}
 footer p{font-weight: 300;font-size: 2em;color: #222;}
 footer a{color: #444;}
-footer a:hover{color: #ec008c;}
+footer a:hover{color: #38322e;}
 footer a, footer a:hover{display: inline;}
 footer .qq .fa{padding: 10px;font-size: 2em;}
